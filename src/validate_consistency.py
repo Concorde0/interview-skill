@@ -13,7 +13,7 @@ from pathlib import Path
 # ── 配置 ──────────────────────────────────────────────────────────────────
 _BASE = Path(__file__).resolve().parent.parent  # interview/
 CLAUDE_MD = _BASE / "CLAUDE.md"
-INTERVIEW_MD = _BASE / ".claude/skills/interview/interview.md"
+INTERVIEW_MD = _BASE / ".claude/skills/interview/SKILL.md"
 INTERVIEW_PREP_MD = _BASE / ".claude/skills/interview-prep/SKILL.md"
 README_MD = _BASE / "README.md"
 

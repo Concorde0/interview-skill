@@ -157,7 +157,7 @@ interview/                          # 项目根目录
 │   └── template.md
 │
 └── .claude/skills/                 # Claude Code Skill 定义
-    ├── interview/interview.md      # 面试流程 Skill
+    ├── interview/SKILL.md         # 面试流程 Skill
     └── interview-prep/SKILL.md     # 答题指导 Skill
 ```
 
@@ -216,7 +216,7 @@ interview/                          # 项目根目录
 
 ### 修改面试官风格
 
-编辑 `.claude/skills/interview/interview.md` 中的「角色定义」和「核心约束」部分，可以调整面试官的语气、追问深度、严格程度等。
+编辑 `.claude/skills/interview/` 下的 Skill 文件中的「角色定义」和「核心约束」部分，可以调整面试官的语气、追问深度、严格程度等。
 
 ### 扩展题库
 
